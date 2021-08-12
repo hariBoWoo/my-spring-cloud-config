@@ -1,6 +1,6 @@
 token:
-    expiration_time:864000000,
-    secret:user_token_default
+    expiration_time: 864000000
+    secret: user_token_default
 
 getesay:
-    ip:0.0.0.0
+    ip: 0.0.0.0
