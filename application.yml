@@ -4,4 +4,4 @@ token:
 #user_token_defult
 
 gateway:
-    ip: 127.18.0.5
+    ip: 172.18.0.5
