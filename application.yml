@@ -4,5 +4,5 @@ token:
 #user_token_defult
 
 gateway:
-    ip: 0.0.0.0  
-   #ip: 172.18.0.5
+#    ip: 0.0.0.0  
+    ip: 172.18.0.5
