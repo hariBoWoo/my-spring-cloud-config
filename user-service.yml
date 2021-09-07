@@ -1,10 +1,13 @@
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-    username: sa
-    #password: '{ciper}860f7334b67966d0715f0908904188099d4aba824484e9d064d833267ca3ce4a'
-    password: '{cipher}AQBmDTygaV8i+lHRq7m/O4TAFkJ/A53ISMAQgjWAw9caLEUM9Nj4V9twnjb72tlaj9QwLAmTAsY8Q+tLeLukV7AC8Tv1mind33W0GW7fiejq7qgXFcroafdd5ADU/KVxypUBvdLSmbE3iThE+vO0bgzvw/tvDUk2idAJtnQ39OzRbMtcu68RI7LJHPblfhVc8iHQeQrPqifWGl5GDkUUzMJKQM8iNi36dLe3IxYV1PmhVDsOfe4M4kU6Vr3RKYM35TRtuXDQyhD0ejOs7UvFBcc2juOtQaCWb6JLYMEuhLeaDum9F700Ibr+Ggfz7fKfpufvVR0oWvpbY0bzlyS0YBB7PejdFdrtr1I9LkcM1/bM2UJm0y4/4svCV5szfxZW9HU='
+    url: jdbc:mariadb://172.18.0.6:3306/mydb
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: root1234
+    #driver-class-name: org.h2.Driver
+    #url: jdbc:h2:mem:testdb
+    #username: sa
+    #password: '{cipher}AQBmDTygaV8i+lHRq7m/O4TAFkJ/A53ISMAQgjWAw9caLEUM9Nj4V9twnjb72tlaj9QwLAmTAsY8Q+tLeLukV7AC8Tv1mind33W0GW7fiejq7qgXFcroafdd5ADU/KVxypUBvdLSmbE3iThE+vO0bgzvw/tvDUk2idAJtnQ39OzRbMtcu68RI7LJHPblfhVc8iHQeQrPqifWGl5GDkUUzMJKQM8iNi36dLe3IxYV1PmhVDsOfe4M4kU6Vr3RKYM35TRtuXDQyhD0ejOs7UvFBcc2juOtQaCWb6JLYMEuhLeaDum9F700Ibr+Ggfz7fKfpufvVR0oWvpbY0bzlyS0YBB7PejdFdrtr1I9LkcM1/bM2UJm0y4/4svCV5szfxZW9HU='
   
 
 order-service:
