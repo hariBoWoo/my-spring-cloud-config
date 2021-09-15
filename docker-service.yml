@@ -4,3 +4,6 @@ spring:
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
     password: test1357
+
+msg:
+  kafkaip: 172.18.0.101:9092

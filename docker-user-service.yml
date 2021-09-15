@@ -19,3 +19,7 @@ order-service:
   url: http://ORDER-SERVICE/%s/orders
   exception:
     orders-is-empty: 'There is no items'  
+
+
+msg:
+  kafkaip: 172.18.0.101:9092
