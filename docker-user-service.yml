@@ -22,4 +22,4 @@ order-service:
 
 
 msg:
-  kafkaip: 172.18.0.101:9092
+  kafkaip: 3.37.212.247:9092
