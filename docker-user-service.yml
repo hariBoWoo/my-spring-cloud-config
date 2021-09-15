@@ -23,3 +23,7 @@ order-service:
 
 msg:
   kafkaip: 3.37.212.247:9092
+  
+
+gateway:
+  ip: 52.20.91.194
