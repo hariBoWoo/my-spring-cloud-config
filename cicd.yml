@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: cicd-deployment
+  labels:
+    app: cicd-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cicd-deployment
+  template:
+    metadata:
+      labels:
+        app: cicd-deployment
+    spec:
+      containers:
+      - name: cicd-pod
+        image: haribojsp/cicd-project:1.0
+        ports:
+        - containerPort: 8080
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  app: cicd-deployment
+  name: cicd-svc
+spec:
+  selector:
+    app: cicd-deployment
+  ports:
+  - port: 8080
